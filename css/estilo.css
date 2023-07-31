@@ -7,6 +7,7 @@
 
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;/*esconde barra de rolagem*/
 }
  
 
@@ -87,7 +88,12 @@ nav.navbar-transparente {
     padding-bottom: 20px;
 }
 #servicos {
-    background-color: white;
+    background: white;
+    
+}
+
+#recursos {
+    color: white;
     
 }
 #servicos h2, h3 {
@@ -108,8 +114,45 @@ nav.navbar-transparente {
    padding: 10px 0;
 
 }
+/*irá ratacionar as imagens dos celulares*/
+.rotacionar {
+    -ms-transform: rotate(30deg);  /* IE 9*/
+    -webkit-transform: rotate(30deg);/* Chrome,Safari,Opera*/
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+/*rodapé
+----------------------------------*/
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;/*ficara sobre a imagem do clelular*/
+  
+  
+}
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
 
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+  text-decoration: none;
+}
 
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0px 5px;
+}
 
 /*tipografia-------------*/
 
